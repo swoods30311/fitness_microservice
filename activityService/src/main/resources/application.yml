@@ -1,10 +1,11 @@
 spring:
   application:
-      name:activity-service
+    name: activity-service
   data:
     mongodb:
-      uri: mongodb://localhost:27017
       database: fitnessActivity
+      host: localhost
+      port: 27017
 
 server:
   port: 8082
